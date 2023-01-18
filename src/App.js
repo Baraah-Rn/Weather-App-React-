@@ -9,7 +9,7 @@ import Forecast from "./components/Forecast";
 import getFormattedWeatherData from "./services/WeatherServices";
 
 function App() {
-  const [query, setQuary] = useState({ q: "berlin" });
+  const [query, setQuery] = useState({ q: "berlin" });
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
 
@@ -21,22 +21,22 @@ function App() {
     };
 
     fetchWeather();
-  }, []);
+  }, [query, units]);
 
   return (
     <div
       className={`mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br  h-fit shadow-xl shadow-gray-400 
       from-cyan-700 to-blue-700`}
     >
-      <TopButton />
-      <Inputs />
+      <TopButton setQuery={setQuery} />
+      <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
 
       {weather && (
         <div>
           <TimeAndLocation weather={weather} />
           <TempAndDetails weather={weather} />
-          <Forecast title="Hourly forecast " />
-          <Forecast title="Daily forecast " />
+          <Forecast title="Hourly forecast" items={weather.hourly} />
+          <Forecast title="Daily forecast " items={weather.daily} />
         </div>
       )}
     </div>
