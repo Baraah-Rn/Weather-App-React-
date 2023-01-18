@@ -9,6 +9,9 @@ const Inputs = ({ setQuery, units, setUnits }) => {
   const handleSearch = () => {
     if (city !== "") {
       setQuery({ q: city });
+    
+    }else{
+      toast.error('Fetching users location failed...')
     }
   };
 
@@ -25,6 +28,8 @@ const Inputs = ({ setQuery, units, setUnits }) => {
           lon,
         });
       });
+    }else{
+      toast.error('Fetching users location failed...')
     }
   };
 
