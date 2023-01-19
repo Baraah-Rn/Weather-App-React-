@@ -1,12 +1,12 @@
 # Weather App
 
-In this app you can featch any weatherdata for any city you want using the search section.
+In this app you can featch any weather data for any city you want using the search section.
 
 You can feach you location weather's data, It provide the Humidity, Wind speed and alot of weather data you may need.
 
 This app also display HOURLY FORECAST and DAILY FORECAST for the city you have selected.
 
-The background color is changes according  to the weather temperature, that is awesome, right ![image](https://user-images.githubusercontent.com/101180840/213476362-4cb55b3c-e246-44b2-9ed8-ffb7a5c5d882.png)
+The background color is changes according  to the weather temperature, that is awesome, right😄
 
 Have fun to try it in : https://sunny-kitten-3d67e2.netlify.app
 
@@ -16,7 +16,7 @@ Have fun to try it in : https://sunny-kitten-3d67e2.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-I have used the tailwindcss library to handel the style side in this project.
+I have used the tailwindcss library to handel the style side in this project.😄
 
 ## Available Scripts
 
