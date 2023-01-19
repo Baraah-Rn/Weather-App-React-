@@ -1,5 +1,5 @@
 import { DateTime } from "luxon";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 
 const API_KEY = "3db754a6c04cbec2c0b5ee747028c6b5";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/";
