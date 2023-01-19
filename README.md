@@ -11,12 +11,12 @@ The background color is changes according  to the weather temperature, that is a
 Have fun to try it in : https://sunny-kitten-3d67e2.netlify.app
 
 
-![Screenshot 2023-01-19 154450](https://user-images.githubusercontent.com/101180840/213477399-c16611a1-ff75-40dc-bfb2-5a483d2cf311.png)
-
+![Screenshot 2023-01-19 160726](https://user-images.githubusercontent.com/101180840/213478091-3f23b791-12c4-493d-9946-5dbe511fdfbb.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 I have used the tailwindcss library to handel the style side in this project.😄
+I tryed also to add some toastify notifications to handle the notification part😄
 
 ## Available Scripts
 
