@@ -1,10 +1,33 @@
-# Getting Started with Create React App
+# Weather App
+
+In this app you can featch any weatherdata for any city you want using the search section.
+
+You can feach you location weather's data, It provide the Humidity, Wind speed and alot of weather data you may need.
+
+This app also display HOURLY FORECAST and DAILY FORECAST for the city you have selected.
+
+The background color is changes according  to the weather temperature, that is awesome, right ![image](https://user-images.githubusercontent.com/101180840/213476362-4cb55b3c-e246-44b2-9ed8-ffb7a5c5d882.png)
+
+Have fun to try it in : https://sunny-kitten-3d67e2.netlify.app
+
+
+![Screenshot 2023-01-10 140755](https://user-images.githubusercontent.com/101180840/211559853-b236057f-5ab7-4382-ad6f-b9bf238d8072.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+I have used the tailwindcss library to handel the style side in this project.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Run the comand in your comand line to insall all the necessary packages you need.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### `npm start`
 
@@ -13,11 +36,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
